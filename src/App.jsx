@@ -4,7 +4,7 @@ import MySchedule from './Pages/MySchedule'
 import MyWorkouts from './Pages/MyWorkouts'
 import MyProfile from './Pages/MyProfile'
 import BottomNav from './Components/BottomNav'
-import { Routes, Route, BrowserRouter } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 
 function App() {
 
