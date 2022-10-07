@@ -15,9 +15,15 @@
     width: 100%;
     margin-top: 0.5rem;
 }
-
+a {
+    width: 100%;
+    text-decoration: none;
+}
 .nav-option p{
     font-size: 0.625rem;
+    text-decoration: none;
+    display: block;
+    color: #2e2e2e;
 }
 
 .nav-option:nth-child(1){
