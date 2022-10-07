@@ -1,5 +1,4 @@
 import React from 'react'
-import BottomNav from './Components/BottomNav'
 import Dashboard from './Pages/Dashboard'
 import MySchedule from './Pages/MySchedule'
 import MyWorkouts from './Pages/MyWorkouts'
@@ -18,7 +17,9 @@ function App() {
         Component = MyWorkouts
         break
        case "/my-profile":
-        Component = MyProfile 
+        Component = MyProfile
+    
+       default:
     }
   return (
     <>
