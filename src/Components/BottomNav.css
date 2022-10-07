@@ -12,20 +12,26 @@
 
 .nav-option{
     text-align: center;
+    text-decoration: none;
     width: 100%;
     margin-top: 0.5rem;
-}
-a {
-    width: 100%;
-    text-decoration: none;
-}
-.nav-option p{
-    font-size: 0.625rem;
-    text-decoration: none;
-    display: block;
-    color: #2e2e2e;
+    
 }
 
-.nav-option:nth-child(1){
-    color:#007BFF;
+.link, .link-active{
+    width: 100%;
+    text-align: center;
+    font-size: 0.625rem;
+    margin-top: 0.5rem;
+    color: #2e2e2e;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.25rem;
+}
+
+.link-active{
+    color: #007BFF;
+    font-size: 0.625rem;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import {BrowserRouter, NavLink } from "react-router-dom"
 import './BottomNav.css'
 
 function BottomNav() {
@@ -41,32 +42,32 @@ function BottomNav() {
     }
 
   return (
-    <div className='nav-container'>
-        <a href="/">
-            <div className='nav-option'>
-                {navDashboard}               
-                <p>Dashboard</p>
-            </div>
-        </a>
-        <a href="/my-schedule">
-            <div className='nav-option'>
-                {navMySchedule}
-                <p> My Schedule </p>
-            </div>
-        </a>
-        <a href="/my-workouts">
-        <div className='nav-option'>
-            {navMyWorkouts}
-            <p> My Workouts </p>
-        </div>
-        </a>
-        <a href="/my-profile">
-        <div className='nav-option'>
-            {navMyProfile}
-            <p> My Profile </p>    
-        </div>
-        </a>
-    </div>
+        <nav className='nav-container'>
+            <NavLink 
+                to="/"
+                className={({ isActive }) => isActive ? 'link-active' : 'link'} end>
+                    {navDashboard}
+                Dashboard
+            </NavLink>
+            <NavLink
+                to="/my-schedule"
+                className={({ isActive }) => isActive ? 'link-active' : 'link'} >
+                    {navMySchedule}
+                   My Schedule
+            </NavLink>
+            <NavLink
+                to="/my-workouts"
+                className={({ isActive }) => isActive ? 'link-active' : 'link'}>
+                    {navMyWorkouts}
+                   My Workouts
+            </NavLink>
+            <NavLink
+                to="/my-profile"
+                className={({ isActive }) => isActive ? 'link-active' : 'link'}>
+                    {navMyProfile}
+                     My Profile    
+            </NavLink>
+        </nav>
   )
 }
 
