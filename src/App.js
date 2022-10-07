@@ -18,8 +18,8 @@ function App() {
         break
        case "/my-profile":
         Component = MyProfile
-    
-       default:
+       break
+        default:
     }
   return (
     <>
