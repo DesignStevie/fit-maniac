@@ -1,0 +1,7 @@
+.selected-workout-container{
+    padding:1rem;
+}
+.selected-workout-header{
+    display: flex;
+    gap:1rem;
+}

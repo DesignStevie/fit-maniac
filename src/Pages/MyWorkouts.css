@@ -1,0 +1,9 @@
+.myworkout-container{
+    padding: 1rem;
+}
+
+.workout-link{
+    width: 100%;
+    text-decoration: none;
+    color: #2e2e2e;
+}

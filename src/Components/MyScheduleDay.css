@@ -1,0 +1,37 @@
+
+p, h4{
+    font-size: 0.875rem;
+}
+
+.week-container h4{
+    color: #fff;
+    font-size: 1.125rem ;
+}
+.days-container{
+    background-color: #fff;
+    padding: 1rem 1rem 0rem 1rem;
+}
+.date-heading-container{
+    display: flex;
+}
+.add-item-container{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.add-item{
+    color: #E0E0E0;
+}
+.exercise-container{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.exercise-icons{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+}

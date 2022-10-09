@@ -1,0 +1,14 @@
+.workout-container{
+    margin-top: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem ;
+    display: flex;
+    align-items: center;
+}
+.exercises{
+    font-size: 0.75rem ;
+}
+.workout-chevron{
+    margin-left: auto;
+}
