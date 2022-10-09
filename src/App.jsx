@@ -3,7 +3,6 @@ import Dashboard from './Pages/Dashboard'
 import MySchedule from './Pages/MySchedule'
 import MyWorkouts from './Pages/MyWorkouts'
 import MyProfile from './Pages/MyProfile'
-import BottomNav from './Components/BottomNav'
 import SelectedWorkout from './Pages/SelectedWorkout'
 import { Routes, Route } from "react-router-dom"
 

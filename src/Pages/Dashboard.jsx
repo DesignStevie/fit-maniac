@@ -7,7 +7,7 @@ function Dashboard() {
   return (
     <>
     <div className="profile-header-container">
-        <img src={ProfileImage} />
+        <img src={ProfileImage} alt='Profile pic' />
         <div className='profile-text'>
           <p> Welcome back, Steven!</p>
           <h4> Friday, 07 Aug</h4>
